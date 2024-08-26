@@ -55,12 +55,12 @@ a.custom-menu-list span.icon{
 
 	$path = $conn->query("SELECT * FROM folders where id = $id  order by name asc")->fetch_array(); 
 ?>
-	<li class="breadcrumb-item text-success"><?php echo $path['name']; ?></li>
+	<li class="breadcrumb-item dark"><?php echo $path['name']; ?></li>
 <?php
 	$id = $path['parent_id'];	
 	} 
 ?> 
-	<li class="breadcrumb-item"><a class="text-success" href="index.php?page=files">Files</a></li>
+	<li class="breadcrumb-item"><a class="dark" href="index.php?page=files">Files</a></li>
   </ol>
 </nav>
 <div class="container-fluid">

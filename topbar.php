@@ -13,7 +13,7 @@
   <div class="container-fluid mt-2 mb-2">
   	<div class="col-lg-12">
   		<div class="col-md-1 float-left" style="display: flex;">
-  			<img width="120" src="assets/itlogo2.png">
+  			<img width="120" src="https://www.himalayanhero.com/files/groups/hero.png">
   		</div>
 	  	<div class="col-md-2 mt-2 float-right">
 	  		<a class="text-light" href="ajax.php?action=logout"><?php echo $_SESSION['login_name'] ?> <i class="fa fa-power-off"></i></a>
